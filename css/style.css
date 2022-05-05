@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header .header-top .head-right .dropped{
+    position: relative;
+}
+.dropmenu{
+    position: absolute;
+    right: 0;
+    width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    border: 1px solid red;
+    transition: .3s;
+}
+.dropmenu li{
+    padding: 10px;
+}
+#header .header-top{
+    color: #fff;
+    background: #f76b6a;
+    padding: 13px;
+    font-size: 0.9em;
+
+}
+#header .header-top .head-right .dropped:hover .dropmenu{
+    opacity: 1;
+    visibility: visible;
+}
+#header .header-top
+
+
+#collection{
+    background: url(../photo/slider02-3_1728x.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#collection .collect-text{
+    font-size: 55px;
+    line-height: 50px;
+    font-weight: 800;   
+}
